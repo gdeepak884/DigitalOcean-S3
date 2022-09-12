@@ -69,7 +69,6 @@ router.post('/upload', function (req, res) {
                     res.status(200).json({
                         status: 'success',
                         message: "File Uploaded",
-                        data: req.file,
                         data: url
                     });
                 }
